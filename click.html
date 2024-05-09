@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>click with function</title>
+    <script>
+        function myfunction(){
+            document.getElementsByTagName("h2")[0].innerHTML="This is javscript.";
+        }  
+    </script>
+    <script>
+        function myfunction2(){
+            document.getElementsByTagName("h2")[2].innerHTML="Pargraph channged";
+        }
+    </script>
+</head>
+<body>
+    <h1>This is my first javascript</h1>
+    <h2>line 1</h2>
+    <h2>line 2</h2>
+    <h2>line 3</h2>   
+    <button onclick="myfunction()">click</button> 
+    <button onclick="myfunction2()">click1</button>
+</body>
+</html>
